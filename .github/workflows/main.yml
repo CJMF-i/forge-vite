@@ -1,14 +1,9 @@
 name: Add to Ecosystem WG Project
 
 on:
-  issues:
-    types:
-      - opened
-  pull_request_target:
-    types:
-      - opened
-
-permissions: {}
+  push:
+    branches:
+      - master
 
 jobs:
   add-to-project:
