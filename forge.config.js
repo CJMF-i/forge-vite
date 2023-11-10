@@ -44,15 +44,5 @@ module.exports = {
         ],
       },
     },
-    {
-      name: '@electron-forge/publisher-github',
-      config: {
-        repository: {
-          owner: 'jiang',
-          name: 'jialong'
-        },
-        prerelease: true
-      }
-    }
   ],
 };
